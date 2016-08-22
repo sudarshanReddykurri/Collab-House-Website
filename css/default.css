@@ -1,0 +1,73 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0; }
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+
+
+/* Header Style */
+.main {
+	margin: 0 auto;
+	padding: 2em;
+}
+
+
+
+/* Main Content */
+.main {
+	max-width: 69em;
+}
+
+
+
+
+.md-trigger {
+	border: none;
+	padding: 0.6em 1.2em;
+	background-color:transparent !important;
+	color: #000;
+	opacity: 1;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px 2px;
+	border-radius: 2px;
+}
+
+
+@media screen and (max-width: 46.0625em) {
+	.column {
+		width: 100%;
+		min-width: auto;
+		min-height: auto;
+		padding: 1em; 
+	}
+
+	.column p {
+		text-align: left;
+		font-size: 1.5em;
+	}
+
+	.column:nth-child(2) {
+		box-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+	}
+}
+
+@media screen and (max-width: 25em) {
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}

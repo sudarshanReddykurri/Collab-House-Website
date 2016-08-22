@@ -1,0 +1,669 @@
+ body{
+
+        font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        overflow-x: hidden;
+        
+      }
+
+/* Scroll baR CSS */
+
+      body::-webkit-scrollbar {
+      width: 0px;
+     
+      }
+
+      body.thin::-webkit-scrollbar {
+          width: 0px;
+      }
+
+      ::-webkit-scrollbar-track {
+         
+          background: #eee;
+      }
+
+      ::-webkit-scrollbar-thumb {
+         
+          background: #888;
+      }
+      ::-webkit-scrollbar-thumb:window-inactive {
+          background: rgba(100,100,100,0.4); 
+      }
+
+      ::-webkit-scrollbar-thumb:vertical {
+        height: 85px;
+
+      }
+
+        /*
+      
+        Pop Up Button CSS Code
+        
+
+        */
+
+
+.button {
+  float:left;
+  padding-left: 85px;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.button:hover{
+   color: #fff;
+}
+
+
+
+
+      .n_bg{
+
+        background-color: #fff;
+
+      }
+
+     /*  Video CSS */
+
+    .vid{
+           position: absolute;
+           margin-top: -1.5%; 
+           width: 100%;
+           height: 100%; 
+           top: 13%;
+           z-index: -100;     
+           overflow: hidden;
+           
+        }
+
+        video { 
+            position: absolute;
+            left: 0%;   
+            min-width: 100%;
+            min-height: 85%;     
+            width: auto;
+            height: auto;        
+            transition: 1s opacity;
+        }
+
+
+        /* About CSS */
+
+       .about_m{
+          background-color: #fff;
+          margin-top: 14%;
+        }
+        .vi{
+          margin-bottom: 0;
+         /*  padding-bottom: 50px; */
+        }
+
+        #about{
+          transition-duration: .5s;
+        }
+
+      /*   img{
+           -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+
+        } */
+
+        .about_img{
+          border-radius: 50%;   
+          -webkit-filter: opacity(100%);
+          -moz-filter: opacity(100%);
+          -o-filter: opacity(100%); 
+          filter: opacity(100%);       
+          transition-property: border;
+          transition-duration: .5s;
+          transition-delay: .2s;
+          -moz-transition: -moz-filter 1500ms linear;
+          -o-transition: -o-filter 1500ms linear;
+          transition: filter 1500ms linear;
+          -webkit-transition : -webkit-filter 1500ms linear;
+          width: 200px;
+          height: 200px;
+         
+          
+
+        /*   -webkit-filter: blur(1px); 
+           filter: blur(1px); */
+           
+         
+
+        }
+
+
+
+        .about_r{
+            margin-top: 8%;
+        }
+
+        /* Heading CSS */
+        .about_about{
+          color: #777777;
+          transition-property: color;
+          transition-duration: .8s;
+          transition-delay: .2s;
+        }
+        .about_about:hover{
+          color:#406661;
+        }
+
+
+
+
+        /* Nav Bar CSS Code */
+
+        .opaque-navbar {         
+            background-color: #fff;              
+            border: none;
+        }
+
+        
+/* Arrow on Video CSS Code N Used for Alignment */
+
+
+        .arrow{   
+
+
+          margin-top: 22.5%;
+          width: 45%;
+          height:auto;
+          margin-left: 7.5%;          
+          color:#fff;
+          padding: 8px;
+          justify-content: left;
+         /*  background-color: #FFA500; */
+        
+          line-height: 18px;
+
+        }
+
+
+        .arrow a{
+          text-decoration:none;
+
+        }
+
+        .arrow a:hover{
+          color:#777;
+
+        }
+
+        .arrow a:active{
+
+          color: #fff;
+        }
+
+
+        .arrow a:visited{
+          color: #fff;
+        }
+
+       
+     /* Communities CSS */
+
+     .com_div{
+      text-align: center;
+     }
+
+     .com_img_size{
+      width: 230px;
+      height: 160px;
+     }
+
+
+
+
+/*team css*/
+       
+
+.controls{
+  padding: 2%;
+  background: #fff;
+  color: #eee;
+}
+
+label{
+  font-weight: 300;
+  margin: 0 .4em 0 0;
+}
+
+button{
+  display: inline-block;
+  padding: .4em .8em;
+  background-color: transparent;
+  border:none;
+  color: #777;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+
+}
+
+button.active{
+  background: #fff;
+  color: #000;
+  
+}
+button:focus{
+  outline: 0 none;
+}
+
+button + label{
+  margin-left: 1em;
+}
+
+.container1{
+ 
+  text-align: center;
+  font-size: 0.6px;
+  background: #fff;  
+  -webkit-backface-visibility: hidden;
+
+}
+
+.container1:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.container1 .mix,
+.container1 .gap{
+  display: inline-block;
+  width: 100%;
+}
+
+.container1 .mix{
+  text-align: left;
+  display: none;
+}
+
+.caption-style-2{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+
+/* CSS Code to add margin between two lines for team  */
+
+/* .container1 .mix:after{
+  content: attr(data-myorder);
+  color: white;
+  font-size: 16px;
+  display: inline-block;  
+  font-weight: 700;
+}
+
+.container1 .mix:before{
+  content: '';
+  display: inline-block;
+} 
+
+
+
+
+*/
+
+/*    or */
+
+
+  /*  .caption-style-2{
+    list-style-type: none;  
+   }
+ */
+/*team hover */
+
+
+  .caption-style-2 li{
+    
+   
+    position: relative;
+    overflow: hidden;
+  }
+
+  .caption-style-2 li:hover .caption{
+    opacity: 1;
+    transform: translateY(-150px);
+    -webkit-transform:translateY(-150px);
+    -moz-transform:translateY(-150px);
+    -ms-transform:translateY(-150px);
+    -o-transform:translateY(-150px);
+
+  }
+
+
+  .caption-style-2 img{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: 4;
+  }
+
+
+  .caption-style-2 .caption{
+    cursor: pointer;
+    position: absolute;
+    left:-25%;
+    opacity: 0;
+    top:155%;
+    -webkit-transition:all 0.15s ease-in-out;
+    -moz-transition:all 0.15s ease-in-out;
+    -o-transition:all 0.15s ease-in-out;
+    -ms-transition:all 0.15s ease-in-out;
+    transition:all 0.15s ease-in-out;
+
+  }
+  .caption-style-2 .blur{
+    background-color: rgba(0,0,0,0.7);
+    height: 300px;
+    width: 400px;
+    z-index: 5;
+    position: absolute;
+  }
+
+  .caption-style-2 .caption-text .box .button{
+    text-align:center;
+    font-size: 18px;
+
+
+  }
+  .caption-style-2 .caption-text{
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    top:-2px;
+
+    
+  }
+
+
+
+    /* Parallax Banner CSS Code */
+
+ #banner {
+      margin-top: 100px;
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      transition: background-position 0.05s linear;
+    }
+
+
+/* Team */
+
+
+.container2 {
+  width: 64.02985075%;
+  max-width: 1260px;
+  background: #fff;
+  margin: auto;
+
+}
+
+.photo-container {
+  text-align: center;
+ 
+  margin: 0 ;
+}
+
+/* ---- Page Elements ---- */
+
+.photo {
+  position: relative;
+  line-height: 0;
+
+  overflow: hidden;
+}
+.photo-container img {
+  max-width: 100%;
+}
+
+
+/* ---- Photo Overlay ---- */
+.photo-overlay {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0; 
+  left: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0, .65);
+}
+/* ---- Float clearfix ---- */
+
+.clearfix2::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.photo-overlay {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: .5s;
+  margin:0;
+}
+
+.photo-overlay:hover {
+  opacity: 1;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 0) and (max-width: 768px) {
+  .container2 {
+    padding: 0 1.225em 2.5em;
+  }
+}
+@media (min-width: 769px) {
+  .container2 {
+    padding: 0 2.25em 4em;
+  }
+  .photo-container {
+    width: 48%;
+    float: left;
+    margin-left: 0%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) { 
+  .photo-container:nth-child(2n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+}
+@media (min-width: 1025px) { 
+  .photo-container {
+    width: 30.63973064%;
+  }
+  .photo-container:nth-child(3n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* /team */
+
+
+@media all and (min-width: 420px){
+
+  .container1 .mix,
+  .container1 .gap{
+    width: 32%;
+  }
+}
+
+@media all and (min-width: 640px){
+  .container1 .mix,
+  .container1 .gap{
+    width: 23.5%;
+  }
+}
+
+
+       /* responsive nav stacked vertically like 3.x */
+        @media(max-width:34em) {
+            .navbar .navbar-nav>.nav-item {
+                float: none;
+                margin-left: .1rem;
+            }
+            .navbar .navbar-nav {
+                float:none !important;
+            }
+            .navbar .collapse.in, .navbar .collapsing  {
+                clear:both;
+            }
+            .about_m{
+          margin-top: 20%;
+           }
+           .nav-link{
+              color:#777777;
+              text-align: center;
+
+           }
+
+             .caption-style-2 .blur{
+            background-color: rgba(0,0,0,0.7);
+            height: 200px;
+            width: 200px;
+            z-index: 5;
+            position: absolute;
+          }
+           .caption-style-2 .caption{
+
+           left: -34%;
+            top: 210%;
+
+           }
+           .caption-style-2 .caption-text .box .button{
+            text-align:center;
+            font-size: 12px;
+
+
+          }
+           .caption-style-2 .caption-text{
+          z-index: 10;
+          color: #fff;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          text-align: center;
+          top:-2px;
+          left: -4%;
+
+          
+        }
+
+        }
+
+
+
+         @media(max-width:48em) {
+           
+            .about_m{
+          margin-top: 10%;
+        }
+
+         .caption-style-2 .caption{
+
+           left: -34%;
+            top: 190%;
+
+           }
+          .caption-style-2 .caption-text{
+          z-index: 10;
+          color: #fff;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          text-align: center;
+          top:-2px;
+          left: -4%;
+
+          
+        }
+        .caption-style-2 .caption-text .box .button{
+            text-align:center;
+            font-size: 12px;
+
+
+          }
+       
+        }
+
+
+         @media(max-width:62em) {
+           
+            .about_m{
+          margin-top: 10%;
+        }
+
+         .caption-style-2 .caption{
+
+            left: -34%;
+            top: 21%;
+
+           }
+          .caption-style-2 .caption-text{
+          float:left;
+          z-index: 10;
+          color: #fff;
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          text-align: center;
+          top:-2px;
+          left: -4%;
+
+          
+        }
+        .caption-style-2 .caption-text .box .button{
+            text-align:center;
+            font-size: 12px;
+
+
+          }
+      
+        }
+
+        @media(max-width:34em){
+
+.gallery li {
+
+
+}
+
+        }
+        @media(max-width:48em){
+
+
+          
+        }
